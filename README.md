@@ -171,6 +171,12 @@ git push origin --delete task5 # Branch auf remote gelöscht
 git revert c0a25cafab02789cc5a2ef4eea297ce148049e37 # Commit rückgängig gemacht
 ```
 
+### reset to commit (hard)
+```bash
+git reset --hard e9659fb93eff1c94e2c6c00473c29e0e0e02a890
+git push origin main --force
+```
+
 ## Aufgabe 4
 Experimentieren Sie mit Zeitreisen!
 
@@ -229,6 +235,12 @@ git merge task5
 ```bash
 git checkout task4
 ```
+---
+
+**Einweg Reise zurück in die Zeit (siehe Aufgabe 3 reset to commit (hard))**
+
+![Screenshot](./Images/Screenshot-4.png)
+![Screenshot](./Images/Screenshot-5.png) 
 
 ## Aufgabe 6
 Erstellen Sie in GitHub einen Pull-Request bezugnehmend auf https://github.com/edlich/education! Bitte referenzieren Sie auf den Pull-Request mit Link oder der Pull-Request Nummer! Kryptische GitHub Namen kann ich kaum zuordnen. Die Aufgabenteile vor dem Pull-Request bitte nicht in den Pull-Request einbauen, sondern extra abgeben!
