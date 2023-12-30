@@ -2,6 +2,33 @@
 
 Dieses Repository wurde erstellt für die Einsendeaufgabe zum Thema Versionierung mit Git.
 
+## Aufgabe 1  
+Erstellen Sie sich ein Repository in Github oder GitLab.
+
+### Vorgehen
+**Schritt 1**  
+Auf GitHub ein neues Repository erstellt (https://github.com/BooleanBill/BHT-SWT-ESA-DVC).
+
+**Schritt 2**  
+Repo lokal geklont:  
+```bash
+git clone git@github.com:BooleanBill/BHT-SWT-ESA-DVC.git
+```
+
+## Aufgabe 2
+Pushen Sie ein eigenes Projekt von Ihnen hoch (z.B. das CCD-Projekt) oder erstellen Sie ein neues Projekt!
+
+### Vorgehen
+```bash
+cd ~\Projects\BHT\SWT\BHT-SWT-ESA-DVC\README.md # in das Verzeichnis wechseln
+```
+README.md erstellt und mit Markdown bearbeitet.
+```bash	
+git add README.md # Datei hinzugefügt
+git commit -m "added readme" # Commit erstellt
+git push # Commit gepusht
+```
+
 ## Aufgabe 3
 Wenden Sie alle in den Unterlagen genannten relevanten Methoden beweisbar an: (das Github Repo ist Beweis) push, pull, add, commit, diff, status, rm/mv, etc.
 
