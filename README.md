@@ -2,7 +2,17 @@
 
 Dieses Repository wurde erstellt für die Einsendeaufgabe zum Thema Versionierung mit Git.
 
+## Aufgabe 1  
+Erstellen Sie sich ein Repository in Github oder GitLab.
 
+### Vorgehen
+**Schritt 1**  
+Auf GitHub ein neues Repository erstellt (https://github.com/BooleanBill/BHT-SWT-ESA-DVC).
+**Schritt 2**  
+Repo lokal geklont:  
+```bash
+git clone git@github.com:BooleanBill/BHT-SWT-ESA-DVC.git
+```
 
 ## Aufgabe 6
 Erstellen Sie in GitHub einen Pull-Request bezugnehmend auf https://github.com/edlich/education! Bitte referenzieren Sie auf den Pull-Request mit Link oder der Pull-Request Nummer! Kryptische GitHub Namen kann ich kaum zuordnen. Die Aufgabenteile vor dem Pull-Request bitte nicht in den Pull-Request einbauen, sondern extra abgeben!
