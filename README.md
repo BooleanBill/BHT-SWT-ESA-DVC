@@ -55,7 +55,59 @@ no changes added to commit (use "git add" and/or "git commit -a")
 #### rm/mv
 ```bash
 git mv .\Nero.png .\Images\ # Bild verschoben
+git rm .\Images\Nero.png # Bild gelöscht
 ```
+
+#### log
+```bash
+git log # Log angezeigt
+```
+**Ausgabe**  
+```bash
+PS C:\Users\freak\Projects\BHT\SWT\BHT-SWT-ESA-DVC> git log
+commit 11ce1309d648decdc41fa845e8c4ab8f43539caf (HEAD -> task3, origin/task3)
+Author: Martin <martin.klejewski@gmail.com>
+Date:   Sat Dec 30 09:32:39 2023 +0100
+
+    deleted image
+
+commit 2454f9c546e9d1ba7f46394cf39170517f23f142
+Author: Martin <martin.klejewski@gmail.com>
+Date:   Sat Dec 30 09:31:51 2023 +0100
+
+    moved Nero.png to Images folder, modified README.md
+
+commit 4c84c7e787c34bdad0ae553643cad5446d466441
+Author: Martin <martin.klejewski@gmail.com>
+Date:   Sat Dec 30 09:30:35 2023 +0100
+
+    added more steps to readme
+
+commit 4263f6712f7c82f3ca9bf401944d199a3cb71a7d
+Author: Martin <martin.klejewski@gmail.com>
+Date:   Sat Dec 30 09:23:17 2023 +0100
+
+    added steps to readme
+
+commit 608ea5707ffb32565e57fe9624084a8e22b0d3be
+Author: Martin <martin.klejewski@gmail.com>
+Date:   Sat Dec 30 09:22:08 2023 +0100
+
+    Added picture of my dog Nero (Nero.png)
+
+commit e838563cf554f91907400750a40c6ce2a8bc9150 (origin/main, origin/klejewski-esa-dvc, origin/HEAD, main, klejewski-esa-dvc)
+Author: Martin <martin.klejewski@gmail.com>
+Date:   Sat Dec 30 09:03:21 2023 +0100
+
+    readme for task 6
+
+commit 96d6b26756737694414c5660043086d9d6451c42
+Author: Martin Klejewski <m.klejewski@ovan.de>
+Date:   Thu Dec 14 08:55:13 2023 +0100
+
+    readme added
+``` 
+
 ## Aufgabe 6
 Erstellen Sie in GitHub einen Pull-Request bezugnehmend auf https://github.com/edlich/education! Bitte referenzieren Sie auf den Pull-Request mit Link oder der Pull-Request Nummer! Kryptische GitHub Namen kann ich kaum zuordnen. Die Aufgabenteile vor dem Pull-Request bitte nicht in den Pull-Request einbauen, sondern extra abgeben!
 
