@@ -228,8 +228,8 @@ HEAD is now at 608ea57 Added picture of my dog Nero (Nero.png)
 ---
 **Einweg Reise zurück in die Zeit (siehe Aufgabe 3 reset to commit (hard))**
 
-**Screenshot 4** 
-![Screenshot](./Images/Screenshot-5.png) 
+**Screenshot 4**  
+![Screenshot](./Images/Screenshot-4.png) 
 
 ## Aufgabe 5
 Erstellen sie zwei unterschiedliche aber ähnliche Branches, wechseln sie hin und her und mergen sie diese Branches dann wieder!  
