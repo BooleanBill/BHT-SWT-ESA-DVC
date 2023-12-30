@@ -182,6 +182,19 @@ git push origin main --force
 git reset --soft 25d334e44d69cf8dc75e69ee9f34047c93abbf26
 git push origin main --force
 ```
+---
+## Zusatz Aufgabe 3 (git flow)
+da wir bei der Arbeit mit git flow arbeiten, füge ich hier zusätzlich noch einige der Befehle davon hinzu.
+Siehe dazu:   
+- https://datasift.github.io/gitflow/IntroducingGitFlow.html  
+- https://danielkummer.github.io/git-flow-cheatsheet/
+
+### init
+```bash
+git flow init # git flow initialisiert
+```
+---
+
 
 ## Aufgabe 4
 Experimentieren Sie mit Zeitreisen!
