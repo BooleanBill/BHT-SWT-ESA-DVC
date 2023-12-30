@@ -179,10 +179,10 @@ git push origin main --force
 ---
 ### reset to commit (soft)
 ```bash
-git reset --soft e9659fb93eff1c94e2c6c00473c29e0e0e02a890
+git reset --soft 25d334e44d69cf8dc75e69ee9f34047c93abbf26
 git push origin main --force
 ```
-
+asdfasdf
 ## Aufgabe 4
 Experimentieren Sie mit Zeitreisen!
 
