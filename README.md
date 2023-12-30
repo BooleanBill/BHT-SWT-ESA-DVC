@@ -193,8 +193,14 @@ Siehe dazu:
 ```bash
 git flow init # git flow initialisiert
 ```
+#### Ausgabe (Screenshot 5)
+![Screenshot](./Images/Screenshot-5.png)
 ---
-
+### release start / finish
+```bash
+git flow release start 1.0.0 # Release erstellt
+git flow release finish 1.0.0 # Release beendet
+```
 
 ## Aufgabe 4
 Experimentieren Sie mit Zeitreisen!
