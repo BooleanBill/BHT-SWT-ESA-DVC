@@ -133,6 +133,17 @@ git checkout -b task4 # Branch erstellt und gewechselt
 Experimentieren Sie mit Zeitreisen!
 
 
+## Aufgabe 5
+Erstellen sie zwei unterschiedliche aber ähnliche Branches, wechseln sie hin und her und mergen sie diese Branches dann wieder!  
+### Vorgehen
+```bash
+git checkout -b task4
+git push --set-upstream origin task4
+git checkout -b task5
+git push --set-upstream origin task5
+git checkout task4
+git merge task5
+```
 
 ## Aufgabe 6
 Erstellen Sie in GitHub einen Pull-Request bezugnehmend auf https://github.com/edlich/education! Bitte referenzieren Sie auf den Pull-Request mit Link oder der Pull-Request Nummer! Kryptische GitHub Namen kann ich kaum zuordnen. Die Aufgabenteile vor dem Pull-Request bitte nicht in den Pull-Request einbauen, sondern extra abgeben!
