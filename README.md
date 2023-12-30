@@ -2,7 +2,20 @@
 
 Dieses Repository wurde erstellt für die Einsendeaufgabe zum Thema Versionierung mit Git.
 
+## Aufgabe 2
+Pushen Sie ein eigenes Projekt von Ihnen hoch (z.B. das CCD-Projekt) oder erstellen Sie ein neues Projekt!
 
+### Vorgehen
+**Schritt 1**  
+```bash
+cd ~\Projects\BHT\SWT\BHT-SWT-ESA-DVC\README.md # in das Verzeichnis wechseln
+```
+README.md erstellt und mit Markdown bearbeitet.
+```bash	
+git add README.md # Datei hinzugefügt
+git commit -m "added readme" # Commit erstellt
+git push # Commit gepusht
+```
 
 ## Aufgabe 6
 Erstellen Sie in GitHub einen Pull-Request bezugnehmend auf https://github.com/edlich/education! Bitte referenzieren Sie auf den Pull-Request mit Link oder der Pull-Request Nummer! Kryptische GitHub Namen kann ich kaum zuordnen. Die Aufgabenteile vor dem Pull-Request bitte nicht in den Pull-Request einbauen, sondern extra abgeben!
