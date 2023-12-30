@@ -131,15 +131,30 @@ git checkout -b task4 # Branch erstellt und gewechselt
 
 ### delete branch
 ```bash
-git branch -d task2 # Branch gelöscht
+git branch -d task5 # Branch gelöscht
+```
+
+## delete remote branch
+```bash
+git push origin --delete task5 # Branch auf remote gelöscht
 ```
 
 ## Aufgabe 4
 Experimentieren Sie mit Zeitreisen!
 
-### Vorgehen
-```bash
 
+### Vorgehen
+**ältere commits anzeigen**
+```bash
+git log --pretty=oneline # alle commits anzeigen
+```
+**Ausgabe (Screenshot 2)**
+![Screenshot](./Images/Screenshot-2.png)
+
+**zum älteren commit wechseln**
+```bash
+git checkout 608ea5707ffb32565e57fe9624084a8e22b0d3be # zu einem älteren commit wechseln
+```
 
 
 ## Aufgabe 5
