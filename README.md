@@ -156,8 +156,31 @@ git log --pretty=oneline # alle commits anzeigen
 git checkout 608ea5707ffb32565e57fe9624084a8e22b0d3be # zu einem älteren commit wechseln
 ```
 
-**Screenshots des älteren commits**
+**Ausgabe**  
+```bash
+PS C:\Users\freak\Projects\BHT\SWT\BHT-SWT-ESA-DVC> git checkout 608ea5707ffb32565e57fe9624084a8e22b0d3be
+Note: switching to '608ea5707ffb32565e57fe9624084a8e22b0d3be'.
 
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 608ea57 Added picture of my dog Nero (Nero.png)
+```
+
+**Screenshots des älteren commits (Screenshot 3)**
+![Screenshot](./Images/Screenshot-3.png)
 ## Aufgabe 5
 Erstellen sie zwei unterschiedliche aber ähnliche Branches, wechseln sie hin und her und mergen sie diese Branches dann wieder!  
 ### Vorgehen
