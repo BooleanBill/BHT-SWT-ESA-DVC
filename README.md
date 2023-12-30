@@ -225,6 +225,12 @@ HEAD is now at 608ea57 Added picture of my dog Nero (Nero.png)
 
 **Screenshots des älteren commits (Screenshot 3)**
 ![Screenshot](./Images/Screenshot-3.png)
+---
+**Einweg Reise zurück in die Zeit (siehe Aufgabe 3 reset to commit (hard))**
+
+**Screenshot 4** 
+![Screenshot](./Images/Screenshot-5.png) 
+
 ## Aufgabe 5
 Erstellen sie zwei unterschiedliche aber ähnliche Branches, wechseln sie hin und her und mergen sie diese Branches dann wieder!  
 ### Vorgehen
@@ -243,10 +249,7 @@ git checkout task4
 ```
 ---
 
-**Einweg Reise zurück in die Zeit (siehe Aufgabe 3 reset to commit (hard))**
 
-![Screenshot](./Images/Screenshot-4.png)
-![Screenshot](./Images/Screenshot-5.png) 
 
 ## Aufgabe 6
 Erstellen Sie in GitHub einen Pull-Request bezugnehmend auf https://github.com/edlich/education! Bitte referenzieren Sie auf den Pull-Request mit Link oder der Pull-Request Nummer! Kryptische GitHub Namen kann ich kaum zuordnen. Die Aufgabenteile vor dem Pull-Request bitte nicht in den Pull-Request einbauen, sondern extra abgeben!
