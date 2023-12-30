@@ -160,20 +160,26 @@ git checkout -b task4 # Branch erstellt und gewechselt
 ```bash
 git branch -d task5 # Branch gelöscht
 ```
-
+---
 ### delete remote branch
 ```bash
 git push origin --delete task5 # Branch auf remote gelöscht
 ```
-
+---
 ### revert commit 
 ```bash
 git revert c0a25cafab02789cc5a2ef4eea297ce148049e37 # Commit rückgängig gemacht
 ```
-
+---
 ### reset to commit (hard)
 ```bash
 git reset --hard e9659fb93eff1c94e2c6c00473c29e0e0e02a890
+git push origin main --force
+```
+---
+### reset to commit (soft)
+```bash
+git reset --soft e9659fb93eff1c94e2c6c00473c29e0e0e02a890
 git push origin main --force
 ```
 
