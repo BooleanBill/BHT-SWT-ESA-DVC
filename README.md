@@ -129,8 +129,17 @@ git checkout -b task4 # Branch erstellt und gewechselt
 ```
 ---
 
+### delete branch
+```bash
+git branch -d task2 # Branch gelöscht
+```
+
 ## Aufgabe 4
 Experimentieren Sie mit Zeitreisen!
+
+### Vorgehen
+```bash
+
 
 
 ## Aufgabe 5
