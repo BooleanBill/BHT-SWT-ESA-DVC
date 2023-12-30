@@ -161,9 +161,14 @@ git checkout -b task4 # Branch erstellt und gewechselt
 git branch -d task5 # Branch gelöscht
 ```
 
-## delete remote branch
+### delete remote branch
 ```bash
 git push origin --delete task5 # Branch auf remote gelöscht
+```
+
+### revert commit 
+```bash
+git revert c0a25cafab02789cc5a2ef4eea297ce148049e37 # Commit rückgängig gemacht
 ```
 
 ## Aufgabe 4
