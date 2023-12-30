@@ -156,6 +156,7 @@ git log --pretty=oneline # alle commits anzeigen
 git checkout 608ea5707ffb32565e57fe9624084a8e22b0d3be # zu einem älteren commit wechseln
 ```
 
+**Screenshots des älteren commits**
 
 ## Aufgabe 5
 Erstellen sie zwei unterschiedliche aber ähnliche Branches, wechseln sie hin und her und mergen sie diese Branches dann wieder!  
