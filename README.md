@@ -107,6 +107,27 @@ Date:   Thu Dec 14 08:55:13 2023 +0100
 
     readme added
 ``` 
+---
+#### branch
+```bash
+git branch # Branches angezeigt
+```
+**Ausgabe**
+```bash
+PS C:\Users\freak\Projects\BHT\SWT\BHT-SWT-ESA-DVC> git branch
+  klejewski-esa-dvc
+  main
+  task1
+  task2
+* task3
+```
+---
+#### checkout
+```bash
+git checkout task1 # Branch gewechselt
+git checkout -b task4 # Branch erstellt und gewechselt
+```
+---
 
 ## Aufgabe 6
 Erstellen Sie in GitHub einen Pull-Request bezugnehmend auf https://github.com/edlich/education! Bitte referenzieren Sie auf den Pull-Request mit Link oder der Pull-Request Nummer! Kryptische GitHub Namen kann ich kaum zuordnen. Die Aufgabenteile vor dem Pull-Request bitte nicht in den Pull-Request einbauen, sondern extra abgeben!
