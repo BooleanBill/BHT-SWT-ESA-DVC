@@ -161,12 +161,10 @@ git checkout -b task4 # Branch erstellt und gewechselt
 git branch -d task5 # Branch gelöscht
 ```
 
-### delete remote branch
+## delete remote branch
 ```bash
 git push origin --delete task5 # Branch auf remote gelöscht
 ```
-
-osaduighqoasdugo
 
 ## Aufgabe 4
 Experimentieren Sie mit Zeitreisen!
