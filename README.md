@@ -201,6 +201,8 @@ git flow init # git flow initialisiert
 git flow release start 1.0.0 # Release erstellt
 git flow release finish 1.0.0 # Release beendet
 ```
+#### Ausgabe (Screenshot 6)
+![Screenshot](./Images/Screenshot-6.png)
 
 ## Aufgabe 4
 Experimentieren Sie mit Zeitreisen!
